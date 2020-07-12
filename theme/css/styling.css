@@ -1,5 +1,9 @@
+@import url("https://use.typekit.net/evg8bhr.css");
+
 body {
-  font-family: monospace;
+  font-family: supria-sans,sans-serif;
+  font-weight: 00;
+  font-style: normal;
   font-size: 100%;
   background-color: white;
   color: #111;
@@ -8,9 +12,15 @@ body {
   min-height: 200px;
   padding: 1em;
   margin: 5% 10%;
-  border: thin solid gray;
-  border-radius: 5px;
   display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.illustration {
+  max-width: 50%;
 }
 
 a:link    { color: blue; text-decoration: none;      }
@@ -26,11 +36,19 @@ h6 a { color: inherit !important }
 
 #menu li {
     display: inline;
+    padding: 10px;
 }
 
 #post-list {
     margin-bottom: 1em;
     margin-top: 1em;
+}
+
+#banner {
+    font-family: bookmania, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
 }
 
 pre {
