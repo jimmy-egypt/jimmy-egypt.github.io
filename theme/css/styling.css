@@ -2,7 +2,6 @@
 
 body {
   font-family: supria-sans,sans-serif;
-  font-weight: 00;
   font-style: normal;
   font-size: 100%;
   background-color: white;
@@ -11,7 +10,7 @@ body {
   min-width: 400px;
   min-height: 200px;
   padding: 1em;
-  margin: 5% 10%;
+  margin: 3% 7%;
   display: block;
 }
 
@@ -20,7 +19,12 @@ img {
 }
 
 img.illustration {
-  max-width: 50%;
+  align-self: center;
+  max-width: 35%;
+}
+
+.published {
+    color: grey;
 }
 
 a:link    { color: blue; text-decoration: none;      }
@@ -34,14 +38,32 @@ h4 a { color: inherit !important }
 h5 a { color: inherit !important }
 h6 a { color: inherit !important }
 
+h2.entry-title {
+    margin-bottom: 0.375em;
+    margin-top: 1.5em;
+
+}
+
 #menu li {
     display: inline;
-    padding: 10px;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-bottom: 2em;
+}
+
+ol {
+list-style-type: none;
 }
 
 #post-list {
     margin-bottom: 1em;
     margin-top: 1em;
+    padding-left: 0;
 }
 
 #banner {
@@ -49,6 +71,17 @@ h6 a { color: inherit !important }
     font-weight: 400;
     font-style: normal;
     font-size: 120%;
+}
+
+#allposts {
+    margin-bottom: 2em;
+    font-family: supria-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    color: grey;
+    white-space: pre;
+    margin-top: 1em;
 }
 
 pre {
