@@ -3,6 +3,7 @@
 body {
   font-family: supria-sans,sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 100%;
   background-color: white;
   color: #111;
@@ -41,7 +42,8 @@ h6 a { color: inherit !important }
 h2.entry-title {
     margin-bottom: 0.375em;
     margin-top: 1.5em;
-
+    font-style: normal;
+    font-weight: 400;
 }
 
 #menu li {
