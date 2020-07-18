@@ -15,6 +15,12 @@ body {
   display: block;
 }
 
+.catdescription {
+    border-left: 2px solid grey;
+    max-width: 650px;
+    padding-left: 10px;
+}
+
 img {
   max-width: 100%;
 }
@@ -24,13 +30,19 @@ img.illustration {
   max-width: 35%;
 }
 
+img.coverphoto {
+  max-width: 650px;
+  height: auto;
+  margin-top: 1em;
+}
+
 .published {
     color: grey;
 }
 
-a:link    { color: blue; text-decoration: none;      }
-a:hover   { color: blue; text-decoration: underline; }
-a:visited { color: blue;                             }
+a:link    { color: darkblue; text-decoration: none;      }
+a:hover   { color: darkblue; text-decoration: underline; }
+a:visited { color: darkblue;                             }
 
 h1 a { color: inherit !important }
 h2 a { color: inherit !important }
@@ -84,6 +96,27 @@ list-style-type: none;
     color: grey;
     white-space: pre;
     margin-top: 1em;
+}
+
+.staticcontent {
+    max-width: 650px;
+}
+
+.entry-content {
+    max-width: 650px;
+}
+
+a.tags {
+    padding-right: 0.25em;
+    color: darkblue;
+}
+
+h1.statictitle {
+    margin-bottom: 0.375em;
+    margin-top: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 pre {
