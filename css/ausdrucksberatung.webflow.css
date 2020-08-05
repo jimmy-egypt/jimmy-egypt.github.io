@@ -1,0 +1,214 @@
+.video {
+  display: block;
+  max-width: none;
+  margin-top: auto;
+  margin-bottom: 20px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.div-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.paragraph {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: bookmania, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.heading {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-family: bookmania, sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.paragraph-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: supria-sans, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block-4 {
+  display: block;
+  width: 100%;
+  height: 12%;
+  margin-bottom: 10px;
+}
+
+.inbetween {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-family: bookmania, sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.text-span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 2em;
+  line-height: 1.3em;
+  font-style: normal;
+}
+
+.paragraph-3 {
+  font-family: supria-sans, sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.faqbody {
+  margin-bottom: 40px;
+  font-family: supria-sans, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+.faqhead {
+  margin-bottom: 0px;
+  font-family: bookmania, sans-serif;
+  font-size: 2em;
+  line-height: 1.3em;
+  font-weight: 600;
+}
+
+.fluidthing {
+  position: relative;
+  height: 0px;
+  padding-top: 56.35%;
+}
+
+@media screen and (max-width: 991px) {
+  .video {
+    max-height: none;
+    min-height: auto;
+    min-width: 75%;
+  }
+  .div-block {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .paragraph-2 {
+    width: 100%;
+  }
+  .div-block-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    line-height: 1em;
+  }
+  .text-span {
+    margin-top: 160px;
+  }
+  .faqbody {
+    white-space: normal;
+  }
+  .faqhead {
+    line-height: 1.3em;
+  }
+  .container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
