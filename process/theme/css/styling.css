@@ -1,0 +1,146 @@
+@import url("https://use.typekit.net/evg8bhr.css");
+
+body {
+  font-family: supria-sans,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  background-color: white;
+  color: #111;
+  width: 80%;
+  min-width: 400px;
+  min-height: 200px;
+  padding: 1em;
+  margin: 3% 7%;
+  display: block;
+}
+
+.catdescription {
+    border-left: 2px solid grey;
+    max-width: 650px;
+    padding-left: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.illustration {
+  align-self: center;
+  max-width: 35%;
+}
+
+img.coverphoto {
+  max-width: 650px;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.published {
+    color: grey;
+}
+
+a:link    { color: darkblue; text-decoration: none;      }
+a:hover   { color: darkblue; text-decoration: underline; }
+a:visited { color: darkblue;                             }
+
+h1 a { color: inherit !important }
+h2 a { color: inherit !important }
+h3 a { color: inherit !important }
+h4 a { color: inherit !important }
+h5 a { color: inherit !important }
+h6 a { color: inherit !important }
+
+h2.entry-title {
+    margin-bottom: 0.250em;
+    margin-top: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#menu li {
+    display: inline;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-bottom: 2em;
+}
+
+ol {
+list-style-type: none;
+}
+
+#post-list {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 0;
+}
+
+#banner {
+    font-family: bookmania, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+}
+
+#allposts {
+    margin-bottom: 2em;
+    font-family: supria-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    color: grey;
+    white-space: pre;
+    margin-top: 1em;
+}
+
+.staticcontent {
+    max-width: 650px;
+}
+
+.entry-content {
+    max-width: 650px;
+}
+
+a.tags {
+    padding-right: 0.25em;
+    color: darkblue;
+}
+
+h1.statictitle {
+    margin-bottom: 0.375em;
+    margin-top: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+pre {
+    margin: 2em 1em 2em 4em;
+}
+
+#exerciseform {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    font-family: supria-sans, sans-serif;
+    color: grey;
+}
+
+#subscribe {
+    position: fixed;
+    color: grey;
+    bottom: 10px;
+}
+
+#inputemail {
+  color: grey;
+}
+
