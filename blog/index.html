@@ -23,27 +23,6 @@
 ↓ find latest updates
 </h2>
 
-<form name="submit-to-google-sheet">
-  <input name="email" type="email" placeholder="Email" required>
-  <button type="submit">Send</button>
-</form>
-
-<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-
-<script>
-  const scriptURL = '<https://script.google.com/macros/s/AKfycbwUPN__3l-phI_4ND_KQHPLlzAkkIHln6IDXoZgKoDPRaFjwqo/exec>'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-
 <ol id="post-list">
 		<li><article class="hentry">
                 <header> <h2 class="entry-title"><a href="/oes-process-archive-is-going-live.html" rel="bookmark" title="Permalink to OES process archive is going live">OES process archive is going live</a></h2> </header>
@@ -53,6 +32,15 @@
                 <div class="entry-content"> <p>Right! Exciting.. Bueno, this is the start of the process archive of Open Expression Support, in which I will try to, well ... , gather and share a selected part of the process. As there will be valuable output generated along the way that I don't want to lose track of. Having …</p> </div><!-- /.entry-content -->
         </article></li>
 </ol>
+
+<div id=subscribe>
+    <form action="https://formspree.io/xyynojjj" method="POST">
+  Stay in the loop? I'll update you once a month. :-O
+  <input type="email" id="mail" name="user_mail" />
+  <button class="buttons" type="submit">Subscribe</button>
+  <input id="inputemail" type="hidden" name="_next" value="/thank-you" />
+</form>
+</div>
 
 </section><!-- /#content -->
         <!--

@@ -124,3 +124,23 @@ pre {
     margin: 2em 1em 2em 4em;
 }
 
+#exerciseform {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    font-family: supria-sans, sans-serif;
+    color: grey;
+}
+
+#subscribe {
+    position: fixed;
+    color: grey;
+    bottom: 10px;
+}
+
+#inputemail {
+  color: grey;
+}
+
