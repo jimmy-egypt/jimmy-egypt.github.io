@@ -41,6 +41,19 @@ img.coverphoto {
     color: grey;
 }
 
+.half {
+    max-width: 48%
+}
+
+.threequarters {
+    max-width: 75%
+}
+
+.image {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 a:link    { color: darkblue; text-decoration: none;      }
 a:hover   { color: darkblue; text-decoration: underline; }
 a:visited { color: darkblue;                             }
@@ -142,5 +155,9 @@ pre {
 
 #inputemail {
   color: grey;
+}
+
+.input {
+  width: 20%;
 }
 
