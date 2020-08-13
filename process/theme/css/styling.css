@@ -73,15 +73,19 @@ h2.entry-title {
 }
 
 #menu li {
+    content:none; 
     display: inline;
     padding-right: 1.5em;
     padding-bottom: 1em;
     padding-top: 1em;
+    padding-inline-start: 0px;
 }
 
-ul {
+ul.navi {
     padding-inline-start: 0px;
     margin-bottom: 2em;
+    margin-inline-start: 0;
+
 }
 
 ol {
@@ -161,3 +165,12 @@ pre {
   width: 20%;
 }
 
+p {
+  line-height: 1.5em;
+}
+
+ul {
+  padding-inline-start: 4px;
+  margin-inline-start: 1em;
+  line-height: 1.5em;
+}
