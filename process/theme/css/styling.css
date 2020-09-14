@@ -16,7 +16,7 @@ body {
 }
 
 .catdescription {
-    border-left: 2px solid grey;
+    border-left: 3px solid grey;
     max-width: 650px;
     padding-left: 10px;
 }
