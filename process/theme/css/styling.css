@@ -92,11 +92,11 @@ ul.navi {
     margin-inline-start: 0;
 }
 
-
+ol.entry-content {
+list-style-type: decimal}
 
 ol {
-list-style-type: none;
-}
+list-style-type: none}
 
 #post-list {
     margin-bottom: 1em;
@@ -188,4 +188,46 @@ article.hentry {
 .reference {
   font-style: italic; 
   font-weight: 300;
+}
+
+blockquote{
+    margin-block-start: 1.3em;
+    margin-block-end: 1.3em;
+    /* border-left: 3px solid grey; */
+    /* padding-left: 10px; */
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+    /* color: rgb(0 0 139); */
+}
+
+hr {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+
+}
+
+figure {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+audio {
+    width: 400px;
+    height: 54px;
+}
+
+figcaption {
+    margin-inline-start: 22px;
+    /* font-style: italic; */
+    font-weight: 300;
+    font-size: 90%;
+    /* font-family: bookmania; */
 }
