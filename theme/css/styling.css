@@ -154,7 +154,7 @@ pre {
 }
 
 #subscribe {
-    position: fixed;
+    /*position: fixed;*/
     color: grey;
     bottom: 10px;
     background-color: white;
@@ -246,4 +246,15 @@ p.question {
     font-size: 205%;
     line-height: 1.25;
     margin-top: 1em;
+}
+
+div.previousnext {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 80%;
+  margin-top: 2em;
+
+
 }
