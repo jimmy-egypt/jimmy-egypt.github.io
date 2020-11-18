@@ -25,7 +25,7 @@ img.image {
   width: 100%;
   height: auto;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   border-style: 2px outset grey;
 
 }
@@ -56,7 +56,7 @@ img.coverphoto {
 
 .image {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 a:link    { color: darkblue; text-decoration: none;      }
@@ -171,6 +171,7 @@ pre {
 
 p {
   line-height: 1.5em;
+  margin-bottom: 0;
 }
 
 ul {
@@ -265,7 +266,7 @@ h3 {
 
 figcaption.pictures {
      margin-inline-start: 0px;
-     width: 75%;
+     width: 100%;
      font-style: italic;
 }
 
